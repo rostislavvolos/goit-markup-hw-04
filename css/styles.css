@@ -16,6 +16,10 @@ body {
     letter-spacing: 0.02em;
 }
 
+.section {
+  padding: 94px 0;
+}
+
 h1,
 h2,
 h3,
@@ -265,6 +269,10 @@ text-transform: uppercase;
    color: var(--accent-color); 
 }
 
+.index-photo-section {
+  padding-top: 0;
+}
+
 .index-photo-list {
   display: flex;
   flex-wrap: wrap;
@@ -333,10 +341,6 @@ text-transform: uppercase;
 
 .advantages-content {
   flex-basis: calc((100% - 30px * var(--grid-item)) / var(--grid-item));
-}
-
-.section {
-  padding: 94px 0;
 }
 
 .team-section {
